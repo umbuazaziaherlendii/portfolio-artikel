@@ -1,0 +1,130 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk seluruh halaman */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styling header */
+header {
+    background: linear-gradient(45deg, #3b8d99, #6b9bd6);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #333;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+/* Styling konten utama */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styling untuk konten utama */
+.content {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.content:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling untuk judul artikel */
+h1, h2 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Styling untuk paragraf dan daftar */
+p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Styling untuk list (unordered list) */
+ul li:before {
+    content: '✔️';
+    margin-right: 10px;
+    color: #3b8d99;
+}
+
+/* Styling untuk footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+/* Styling untuk link */
+a {
+    text-decoration: none;
+    color: #3b8d99;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gambar pemanis - jika ada gambar di artikel */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Styling tombol jika diperlukan */
+button {
+    background-color: #3b8d99;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #6b9bd6;
+}
